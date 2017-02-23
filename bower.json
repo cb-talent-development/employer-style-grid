@@ -1,6 +1,6 @@
 {
   "name": "employer-style-grid",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "authors": [
     "Content Enablement <ContentEnablementProductTeam@careerbuilder.com>"
   ],
@@ -16,7 +16,6 @@
     "sass",
     "css"
   ],
-  "private": true,
   "main": [
     "sass/_grid.scss",
     "sass/_grid-settings.scss"
