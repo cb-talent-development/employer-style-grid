@@ -1,10 +1,10 @@
 {
   "name": "employer-style-grid",
   "version": "1.0.0",
-  "authors": [
-    "Content Enablement <ContentEnablementProductTeam@careerbuilder.com>"
-  ],
+  "author": "EmployerSiteContentProducts@cb.com",
+  "license": "Apache-2.0",
   "description": "A stack-agnostic SASS library providing a framework-agnostic, Neat-based grid system intended for the Employer experience",
+  "repository": "github:cb-talent-development/employer-style-grid",
   "keywords": [
     "cb",
     "careerbuilder",
@@ -16,18 +16,11 @@
     "sass",
     "css"
   ],
-  "main": [
-    "sass/_grid.scss",
-    "sass/_grid-settings.scss"
+  "files": [
+    "sass"
   ],
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "main": "sass/_grid.scss",
   "dependencies": {
-    "neat": "~1.7.2"
+    "bourbon-neat": "^2.0.0"
   }
 }
