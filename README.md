@@ -10,18 +10,18 @@ Add and install with Yarn:
 $ yarn add employer-style-grid
 ```
 
-Now, import `sass/grid` after [Neat](http://neat.bourbon.io/) Helpers, and after a framework like [Bourbon](http://bourbon.io/) in your main `application.scss`. Then, import Neat. For example:
+Now, import `sass/directives/00_variables/grid-settings` after [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/) in your main `application.scss`. Then, import `sass/base`. For example:
 
 ```scss
 @import 'bourbon/app/assets/stylesheets/bourbon';
 @import 'bourbon-neat/app/assets/stylesheets/neat-helpers';
-@import 'employer-style-grid/sass/grid';
 @import 'bourbon-neat/app/assets/stylesheets/neat';
+@import 'employer-style-grid/sass/base';
 
 @import 'your-app';
 ```
 
-You can now use [Neat mixins](http://thoughtbot.github.io/neat-docs/latest/) and the provided breakpoints (see `_grid-settings.scss`).
+You can now use [Neat mixins](http://thoughtbot.github.io/neat-docs/latest/) and the provided breakpoints (see `_grid-settings.scss`), mixins and selectors.
 
 ### What's included
 
@@ -37,7 +37,7 @@ Then update the `package.json` file in your project with the new version:
 
 ```json
   "dependencies": {
-    "employer-style-grid": "=1.0.0"
+    "employer-style-grid": "^2.0.0"
   }
 ```
 
