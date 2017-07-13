@@ -1,6 +1,6 @@
 {
   "name": "employer-style-grid",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "EmployerSiteContentProducts@cb.com",
   "license": "Apache-2.0",
   "description": "A stack-agnostic SASS library providing a framework-agnostic, Neat-based grid system intended for the Employer experience",
